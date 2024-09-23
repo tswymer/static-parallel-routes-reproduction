@@ -1,4 +1,11 @@
-/** Add your relevant code here for the issue to reproduce */
 export default function Home() {
-  return null;
+  const renderTime = new Date().toISOString();
+
+  return (
+    <>
+      <p>Rendered at: {renderTime} (correctly static)</p>
+      Go to <a href="/test">/test</a> to see reproduction (parallel routes not
+      supported on root layout)
+    </>
+  );
 }
