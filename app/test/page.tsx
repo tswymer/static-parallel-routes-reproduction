@@ -1,9 +1,9 @@
-export default function Root() {
+export default function Parent() {
   const renderTime = new Date().toISOString();
 
   return (
     <div style={{ backgroundColor: "orange", padding: "10px" }}>
-      <h2>Static Root Page: {renderTime} (expected to be static)</h2>
+      <h2>Static Parent Page (expected to be static)</h2>
       <p>Rendered at: {renderTime}</p>
     </div>
   );
