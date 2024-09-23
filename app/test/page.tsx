@@ -3,7 +3,7 @@ export default function Parent() {
 
   return (
     <div style={{ backgroundColor: "orange", padding: "10px" }}>
-      <h2>Static Parent Page (expected to be static)</h2>
+      <h2>Static Page (expected to be static)</h2>
       <p>Rendered at: {renderTime}</p>
     </div>
   );
