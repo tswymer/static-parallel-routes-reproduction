@@ -6,7 +6,7 @@ export default function ParallelRoute() {
   const country = headers().get("X-Vercel-IP-Country");
 
   return (
-    <div style={{ backgroundColor: "green" }}>
+    <div style={{ backgroundColor: "green", padding: "10px" }}>
       <h3>Dynamic Parallel Route (correctly dynamic)</h3>
       <p>Rendered at: {renderTime}</p>
       <p>X-Vercel-IP-Country header (causing dynamic rendering): {country}</p>
