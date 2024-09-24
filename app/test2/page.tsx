@@ -7,7 +7,7 @@ export default function ParallelRoute() {
 
   return (
     <div style={{ backgroundColor: "green", padding: "10px" }}>
-      <h3>Dynamic Parallel Route (dynamic)</h3>
+      <h3>Page (dynamic)</h3>
       <p>Rendered at: {renderTime}</p>
       <p>X-Vercel-IP-Country header (causing dynamic rendering): {country}</p>
     </div>
