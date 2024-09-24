@@ -1,7 +1,3 @@
-import { Suspense } from "react";
-
-export const experimental_ppr = true;
-
 export default function TestLayout({
   children,
 }: Readonly<{
@@ -24,7 +20,7 @@ export default function TestLayout({
         <p>Rendered at: {renderTime}</p>
       </div>
 
-      <Suspense>{children}</Suspense>
+      {children}
     </div>
   );
 }
