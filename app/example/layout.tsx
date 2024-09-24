@@ -16,7 +16,7 @@ export default function TestLayout({
       }}
     >
       <div>
-        <h1>Layout (expected to be static)</h1>
+        <h1>Example Layout (expected to be static)</h1>
         <p>Rendered at: {renderTime}</p>
       </div>
 
